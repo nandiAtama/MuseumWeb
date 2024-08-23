@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
-to = "/maps.html"
+to = "/main.py"
 status = 200
