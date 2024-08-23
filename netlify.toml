@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/maps.html"
+status = 200

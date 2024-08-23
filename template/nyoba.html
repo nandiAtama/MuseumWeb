@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Footer Modern</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      footer {
+        background-color: #282c34;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+
+      footer p {
+        margin: 10px 0;
+      }
+
+      footer nav {
+        display: flex;
+        gap: 15px;
+      }
+
+      footer a {
+        color: #61dafb;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 600px) {
+        footer nav {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        footer nav a {
+          margin: 5px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Konten Halaman Utama -->
+    <div>
+      <h1>Selamat Datang di Situs Kami</h1>
+      <p>Konten utama halaman...</p>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Nama Perusahaan. Semua hak cipta dilindungi.</p>
+      <nav>
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <p>Alamat: Jalan Contoh No. 123, Kota Contoh</p>
+    </footer>
+  </body>
+</html>

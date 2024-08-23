@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Maps</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- Nav Section Start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark text-light shadow"
+      style="background-color: #131842"
+    >
+      <div class="container"  style="height: 60px;">
+        <a class="navbar-brand" style="font-size: 30px;" href="/"><b>MBCLAB</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="/">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/mappp">Webgis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">Tentang</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Lainnya
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Layanan</a></li>
+                <li><a class="dropdown-item" href="#">Kontak</a></li>
+                <li>
+                  <a class="dropdown-item" href="">Pengaturan</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Nav Section End -->
+
+
+    <div class="basemap " style="margin-bottom: 0px;">
+      <div class="isi">
+        <iframe
+          src="https://nanditrianawebgis.netlify.app/#12/-6.9057/107.6541"
+          height="550"
+          width="100%"
+        ></iframe>
+      </div>
+    </div>
+  
+    <footer style="background-color: #131842; text-align: center; padding: 1rem 0; margin-top: 0px;">
+      <div class="social" style="padding: 1rem 0; ">
+        <a href="#" style="color: #ffffff; margin: 1rem;"><i data-feather="instagram"> </i></a>
+        <a href="#" style="color: #ffffff; margin: 1rem;"><i data-feather="github"></i></a>
+        <a href="#" style="color: #ffffff; margin: 1rem;"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="link">
+        <a href="/">Beranda</a>
+        <a href="/mappp">Webgis</a>
+        <a href="/about">Tentang</a>
+      </div>
+
+      <div class="credit">
+        <p style="color: #ffffff;">&copy; 2024<span> Nandi Triana. Semua cinta dilindungi</span></p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
